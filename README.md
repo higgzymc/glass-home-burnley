@@ -12,7 +12,7 @@ Enable ADB debugging on the Stick and approve your computer on the TV. With Andr
 
 ```powershell
 adb connect FIRE_STICK_IP:5555
-adb install -r app/build/outputs/apk/debug/app-debug.apk
+adb install -r release/GlassHome-Burnley.apk
 adb shell settings put secure enabled_accessibility_services local.glasshome/local.glasshome.HomeService
 adb shell settings put secure accessibility_enabled 1
 adb shell am start -n local.glasshome/.MainActivity
