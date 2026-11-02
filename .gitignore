@@ -4,3 +4,9 @@
 local.properties
 app/build/
 build/
+
+accessibility-backup-*.json
+
+artwork/
+release/GlassHome-Burnley.apk
+*-private.*
